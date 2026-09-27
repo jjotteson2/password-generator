@@ -2,10 +2,13 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 let password = ""
 function generatePassword() {
+    let password = ""
+
     for (let i = 0; i < 15; i++) {
         let randomIndex = Math.floor(Math.random() * characters.length)
         password += characters[randomIndex]
     }
+
     return password
 }
 
