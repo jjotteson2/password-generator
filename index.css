@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: black;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    background-color: lightgreen;
+}
+
+div {
+    color: lightgreen;
+}
+
+p {
+    color: gray;
+}
